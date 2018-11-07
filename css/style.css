@@ -1,0 +1,64 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+}
+
+.container{
+    width: 1010px;
+    margin: 0 auto;
+
+}
+
+nav{
+    background-color: #ffffff;
+    padding: 30px 0;
+    border-bottom: 1px solid #000019;
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo .line{
+        width: 1px;
+        height: 46px;
+        background-color: #262626;
+        margin: 0 30px;
+}
+
+nav .search input{
+    width: 308px;
+  height: 40px;
+  border-radius: 4px;
+  border: solid 1.5px #d6d6d6;
+
+  font-size: 22px;
+  color: #a7a7a7;
+
+  box-sizing: border-box;
+  background: #fafafa url('../icons/search.png') no-repeat 15px;
+  padding-left: 40px;
+
+}
+
+nav .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .references ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .references ul li{
+    list-style: none;
+    margin-left: 46px;
+}
+
+nav .references ul li:first-of-type{
+    margin-left: 0;
+}
